@@ -87,5 +87,3 @@ function dvwaDatabaseConnect() {
 }
 
 // -- END
-
-?>

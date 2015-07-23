@@ -83,4 +83,3 @@ dvwaMessagePush( "Data inserted into 'guestbook' table." );
 dvwaMessagePush( "Setup successful!" );
 dvwaPageReload();
 
-?>

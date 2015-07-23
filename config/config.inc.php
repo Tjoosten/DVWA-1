@@ -32,4 +32,3 @@ $_DVWA['recaptcha_private_key'] = "";
 # If you specify an invalid level, DVWA will default to high.
 $_DVWA['default_security_level'] = "high";
 
-?>

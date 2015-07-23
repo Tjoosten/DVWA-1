@@ -28,4 +28,3 @@
 				echo '<pre>Your image was not uploaded.</pre>';
 			}
 		}
-?>

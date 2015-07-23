@@ -96,4 +96,4 @@ $page[ 'body' ] .= "
 ";
 
 dvwaSourceHtmlEcho( $page );
-?>
+

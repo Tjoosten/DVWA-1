@@ -35,5 +35,3 @@ $page[ 'body' ] .= "
 
 
 dvwaHtmlEcho( $page );
-
-?>

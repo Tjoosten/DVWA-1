@@ -70,4 +70,3 @@ $page[ 'body' ] .= "
 
 dvwaHtmlEcho( $page );
 
-?>

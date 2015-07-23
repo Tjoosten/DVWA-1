@@ -8,4 +8,3 @@ dvwaPageStartup( array( 'authenticated', 'phpids' ) );
 
 phpinfo();
 
-?>

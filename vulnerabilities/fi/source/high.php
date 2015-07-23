@@ -7,5 +7,3 @@
 		echo "ERROR: File not found!";
 		exit;
 	}
-		
-?>

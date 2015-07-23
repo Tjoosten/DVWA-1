@@ -599,5 +599,3 @@ return $guestbook;
 }
 // -- END
 
-
-?>

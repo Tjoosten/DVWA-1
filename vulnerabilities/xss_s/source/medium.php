@@ -20,5 +20,3 @@ if(isset($_POST['btnSign']))
    $result = mysql_query($query) or die('<pre>' . mysql_error() . '</pre>' );
    
 }
-
-?>

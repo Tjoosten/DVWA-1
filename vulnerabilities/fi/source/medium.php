@@ -6,5 +6,3 @@
 	$file = str_replace("http://", "", $file);
 	$file = str_replace("https://", "", $file);		
 
-
-?>

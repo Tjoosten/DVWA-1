@@ -37,4 +37,3 @@ include($file);
 
 dvwaHtmlEcho( $page );
 
-?>

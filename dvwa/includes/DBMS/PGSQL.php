@@ -104,4 +104,3 @@ dvwaPageReload();
 pg_close($dbconn);
 
 
-?>

@@ -70,4 +70,3 @@ $page[ 'body' ] .= "    New password:<br>
 
 dvwaHtmlEcho( $page );
 
-?>

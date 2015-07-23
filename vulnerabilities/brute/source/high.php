@@ -32,5 +32,3 @@ if( isset( $_GET[ 'Login' ] ) ) {
 
 	mysql_close();
 }
-
-?>

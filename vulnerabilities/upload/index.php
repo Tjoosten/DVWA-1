@@ -63,5 +63,3 @@ $page[ 'body' ] .= "
 ";
 
 dvwaHtmlEcho( $page );
-
-?>
