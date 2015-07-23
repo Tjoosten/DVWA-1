@@ -35,9 +35,9 @@
 /**
  * The reCAPTCHA server URL's
  */
-define("RECAPTCHA_API_SERVER", "http://www.google.com/recaptcha/api");
-define("RECAPTCHA_API_SECURE_SERVER", "https://www.google.com/recaptcha/api");
-define("RECAPTCHA_VERIFY_SERVER", "www.google.com");
+const RECAPTCHA_API_SERVER = "http://www.google.com/recaptcha/api";
+const RECAPTCHA_API_SECURE_SERVER = "https://www.google.com/recaptcha/api";
+const RECAPTCHA_VERIFY_SERVER = "www.google.com";
 
 /**
  * Encodes the given data into a query string format
@@ -200,6 +200,8 @@ function recaptcha_check_answer ($privkey, $remoteip, $challenge, $response, $ex
  * using this function.
  * @param string $domain The domain where the page is hosted
  * @param string $appname The name of your application
+ *
+ * @return string
  */
 function recaptcha_get_signup_url ($domain = null, $appname = null) {
 	return "https://www.google.com/recaptcha/admin/create?" .  _recaptcha_qsencode (array ('domains' => $domain, 'app' => $appname));

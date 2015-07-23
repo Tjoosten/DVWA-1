@@ -1,6 +1,7 @@
 <?php
 
-define( 'DVWA_WEB_PAGE_TO_ROOT', '' );
+const DVWA_WEB_PAGE_TO_ROOT = '';
+
 require_once DVWA_WEB_PAGE_TO_ROOT.'dvwa/includes/dvwaPage.inc.php';
 
 dvwaPageStartup( array( 'phpids' ) );
@@ -38,7 +39,7 @@ $page[ 'body' ] .= "
 	Backend Database: <b>".$DBMS."</b>
 
 	<br /><br /><br />
-	
+
 	<!-- Create db button -->
 	<form action=\"#\" method=\"post\">
 		<input name=\"create_db\" type=\"submit\" value=\"Create / Reset Database\">
